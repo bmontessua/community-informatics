@@ -22,12 +22,25 @@ body {
   background-color: #575757;
 }
 footer {
-  text-align: justify;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
   padding: 100px;
   background-color: whitesmoke;
   color: black;
-  display: flex;
-  justify-content: space-between;
+  text-align: justify;
+}
+footer span {
+  flex: 2 1 300px;
+  min-width: 250px;
+  padding: 20px;
+}
+footer img {
+  max-width: 300px;
+  height: auto;
+  flex: 1 1 300px;
+  margin-right: 20px;
 }
 h1 {
   text-align: center;
